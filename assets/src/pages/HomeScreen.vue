@@ -1,11 +1,9 @@
 <template>
-  <p>Hello World</p>
-  <RouterView />
+  <div>Home</div>
 </template>
 
-
 <script setup lang="ts">
-import { RouterView } from "vue-router";
+
 </script>
 
 

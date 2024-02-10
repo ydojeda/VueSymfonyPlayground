@@ -20,7 +20,7 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
-    .addEntry('app', './assets/src/app.js')
+    .addEntry('app', './assets/src/app.ts')
     .enableVueLoader()
 
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
@@ -60,7 +60,11 @@ Encore
     //.enableSassLoader()
 
     // uncomment if you use TypeScript
-    //.enableTypeScriptLoader()
+    .enableTypeScriptLoader((tsConfig) => {
+        tsConfig.allowTsInNodeModules = true
+        tsConfig.appendTsSuffixTo = [/\.vue$/];
+        tsConfig.appendTsxSuffixTo = [/\.vue$/];
+    })
 
     // uncomment if you use React
     //.enableReactPreset()
