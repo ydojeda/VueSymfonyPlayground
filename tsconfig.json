@@ -12,7 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "sourceMap": true,
-    "baseUrl": "src",
+    "baseUrl": "./assets/src",
     "types": [
       "webpack-env"
     ],
@@ -37,6 +37,6 @@
     "node_modules"
   ],
   "files": [
-    "./src/shims-vue.d.ts",
+    "./assets/src/shims-vue.d.ts",
   ]
 }

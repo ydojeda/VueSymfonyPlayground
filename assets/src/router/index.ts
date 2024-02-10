@@ -1,5 +1,5 @@
 import {createRouter, createWebHashHistory} from "vue-router";
-import HomeScreen from "../pages/HomeScreen.vue";
+import HomeScreen from "@pages/HomeScreen.vue";
 
 const About = { template: '<div>About</div>' }
 

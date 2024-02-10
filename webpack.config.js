@@ -1,4 +1,5 @@
 const Encore = require('@symfony/webpack-encore');
+const TSConfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
 // It's useful when you use tools that rely on webpack.config.js file.
@@ -77,4 +78,7 @@ Encore
     //.autoProvidejQuery()
 ;
 
-module.exports = Encore.getWebpackConfig();
+const config = Encore.getWebpackConfig();
+config.resolve.plugins = [new TSConfigPathsPlugin];
+
+module.exports = config;
