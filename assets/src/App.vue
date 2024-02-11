@@ -1,15 +1,10 @@
 <template>
-  <p>Hello World</p>
-  <RouterView />
+    <p>Hello World</p>
+    <RouterView />
 </template>
 
-
 <script setup lang="ts">
-import { RouterView } from "vue-router";
+import { RouterView } from 'vue-router'
 </script>
 
-
-
-<style scoped>
-
-</style>
+<style scoped></style>

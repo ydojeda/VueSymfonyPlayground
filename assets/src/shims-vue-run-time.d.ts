@@ -1,7 +1,7 @@
-import VueRouter from "vue-router";
+import VueRouter from 'vue-router'
 
-declare module "@vue/runtime-core" {
-  interface ComponentCustomProperties {
-    $router: VueRouter;
-  }
+declare module '@vue/runtime-core' {
+    interface ComponentCustomProperties {
+        $router: VueRouter
+    }
 }
