@@ -17,7 +17,9 @@
       "webpack-env"
     ],
     "paths": {
-      "@pages/*": ["pages/*"]
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@components/*": ["components/*"]
     },
     "lib": [
       "esnext",
