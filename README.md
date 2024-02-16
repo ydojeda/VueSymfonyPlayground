@@ -278,3 +278,7 @@ Documentation for Vue 3 can be found [here](https://vuejs.org/guide/essentials/a
 
 
 
+# Original Exercises (Partial Examples)
+The original exercises were done in two separate repositories:
+- [SymfonyPlayground](https://github.com/ydojeda/SymfonyPlayground)
+- [VuePlayground](https://github.com/ydojeda/VuePlayground)
